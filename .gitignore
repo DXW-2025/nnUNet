@@ -116,3 +116,5 @@ ENV/
 
 !documentation/assets/scribble_example.png
 
+*.b2nd
+*.safetensors
