@@ -1,0 +1,20 @@
+{
+    "channel_names": {
+        "0": "DESS"
+    },
+    "labels": {
+        "background": 0,
+        "seg__femur": 1,
+        "femur_bml": 2,
+        "seg__patella": 3,
+        "patella_bml": 4,
+        "seg__tibia": 5,
+        "tibia_bml": 6
+    },
+    "numTraining": 99,
+    "file_ending": ".nii.gz",
+    "licence": "See OAI / 3DReasonKnee terms of use",
+    "converted_by": "workspace/convert_dess_to_nnunet.py",
+    "name": "KneeDESS_BML",
+    "reference": "3DReasonKnee / OAI \u2014 DESS images with BML labels"
+}
