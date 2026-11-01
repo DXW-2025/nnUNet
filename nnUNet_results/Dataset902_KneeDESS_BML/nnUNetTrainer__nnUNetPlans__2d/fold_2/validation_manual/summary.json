@@ -1,0 +1,1396 @@
+{
+    "foreground_mean": {
+        "Dice": 0.6489514876144743,
+        "FN": 22869.358333333337,
+        "FP": 9558.716666666667,
+        "IoU": 0.58742149270859,
+        "TN": 23014428.566666666,
+        "TP": 546103.3583333334,
+        "n_pred": 555662.0750000001,
+        "n_ref": 568972.7166666667
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.9645435124068736,
+            "FN": 95420.85,
+            "FP": 29348.0,
+            "IoU": 0.9386596766163409,
+            "TN": 21672280.8,
+            "TP": 1795910.35,
+            "n_pred": 1825258.35,
+            "n_ref": 1891331.2
+        },
+        "2": {
+            "Dice": 0.3084245364223131,
+            "FN": 492.05,
+            "FP": 1229.85,
+            "IoU": 0.22501905810889974,
+            "TN": 23590242.3,
+            "TP": 995.8,
+            "n_pred": 2225.65,
+            "n_ref": 1487.85
+        },
+        "3": {
+            "Dice": 0.9531514183644543,
+            "FN": 14026.3,
+            "FP": 5198.65,
+            "IoU": 0.914315371693738,
+            "TN": 23375995.35,
+            "TP": 197739.7,
+            "n_pred": 202938.35,
+            "n_ref": 211766.0
+        },
+        "4": {
+            "Dice": 0.3539610054336627,
+            "FN": 606.7,
+            "FP": 1654.8,
+            "IoU": 0.24750927025971017,
+            "TN": 23590349.75,
+            "TP": 348.75,
+            "n_pred": 2003.55,
+            "n_ref": 955.45
+        },
+        "5": {
+            "Dice": 0.9829871069203694,
+            "FN": 24839.55,
+            "FP": 19674.0,
+            "IoU": 0.9665950486487956,
+            "TN": 22267659.15,
+            "TP": 1280787.3,
+            "n_pred": 1300461.3,
+            "n_ref": 1305626.85
+        },
+        "6": {
+            "Dice": 0.33064134613917273,
+            "FN": 1830.7,
+            "FP": 247.0,
+            "IoU": 0.2324305309240552,
+            "TN": 23590044.05,
+            "TP": 838.25,
+            "n_pred": 1085.25,
+            "n_ref": 2668.95
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9788380729041799,
+                    "FN": 60360,
+                    "FP": 13962,
+                    "IoU": 0.9585532391400363,
+                    "TN": 21799768,
+                    "TP": 1718870,
+                    "n_pred": 1732832,
+                    "n_ref": 1779230
+                },
+                "2": {
+                    "Dice": 0.2395287958115183,
+                    "FN": 1011,
+                    "FP": 151,
+                    "IoU": 0.13605947955390335,
+                    "TN": 23591615,
+                    "TP": 183,
+                    "n_pred": 334,
+                    "n_ref": 1194
+                },
+                "3": {
+                    "Dice": 0.9705507919835554,
+                    "FN": 6673,
+                    "FP": 3112,
+                    "IoU": 0.9427864769099435,
+                    "TN": 23421934,
+                    "TP": 161241,
+                    "n_pred": 164353,
+                    "n_ref": 167914
+                },
+                "4": {
+                    "Dice": 0.6262870987280436,
+                    "FN": 562,
+                    "FP": 55,
+                    "IoU": 0.4559082892416226,
+                    "TN": 23591826,
+                    "TP": 517,
+                    "n_pred": 572,
+                    "n_ref": 1079
+                },
+                "5": {
+                    "Dice": 0.9817305898945916,
+                    "FN": 26641,
+                    "FP": 18320,
+                    "IoU": 0.964116745678303,
+                    "TN": 22339980,
+                    "TP": 1208019,
+                    "n_pred": 1226339,
+                    "n_ref": 1234660
+                },
+                "6": {
+                    "Dice": 0.7052707581227436,
+                    "FN": 1374,
+                    "FP": 667,
+                    "IoU": 0.5447245148338167,
+                    "TN": 23588477,
+                    "TP": 2442,
+                    "n_pred": 3109,
+                    "n_ref": 3816
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_012.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9848209259315465,
+                    "FN": 70342,
+                    "FP": 7177,
+                    "IoU": 0.970095770379463,
+                    "TN": 21000718,
+                    "TP": 2514723,
+                    "n_pred": 2521900,
+                    "n_ref": 2585065
+                },
+                "2": {
+                    "Dice": 0.010447761194029851,
+                    "FN": 104,
+                    "FP": 1222,
+                    "IoU": 0.005251312828207052,
+                    "TN": 23591627,
+                    "TP": 7,
+                    "n_pred": 1229,
+                    "n_ref": 111
+                },
+                "3": {
+                    "Dice": 0.9833797113375272,
+                    "FN": 8064,
+                    "FP": 1146,
+                    "IoU": 0.9673028586035018,
+                    "TN": 23311284,
+                    "TP": 272466,
+                    "n_pred": 273612,
+                    "n_ref": 280530
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 42,
+                    "IoU": 0.0,
+                    "TN": 23592918,
+                    "TP": 0,
+                    "n_pred": 42,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.9673591736598413,
+                    "FN": 95348,
+                    "FP": 8415,
+                    "IoU": 0.9367818402922475,
+                    "TN": 21951612,
+                    "TP": 1537585,
+                    "n_pred": 1546000,
+                    "n_ref": 1632933
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 5,
+                    "FP": 378,
+                    "IoU": 0.0,
+                    "TN": 23592577,
+                    "TP": 0,
+                    "n_pred": 378,
+                    "n_ref": 5
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_016.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9865197617911942,
+                    "FN": 36745,
+                    "FP": 20343,
+                    "IoU": 0.9733981232182083,
+                    "TN": 21446946,
+                    "TP": 2088926,
+                    "n_pred": 2109269,
+                    "n_ref": 2125671
+                },
+                "2": {
+                    "Dice": 0.6183685111237878,
+                    "FN": 8,
+                    "FP": 661,
+                    "IoU": 0.4475639966969447,
+                    "TN": 23591749,
+                    "TP": 542,
+                    "n_pred": 1203,
+                    "n_ref": 550
+                },
+                "3": {
+                    "Dice": 0.9767792082507175,
+                    "FN": 4977,
+                    "FP": 7636,
+                    "IoU": 0.9546123535867864,
+                    "TN": 23315065,
+                    "TP": 265282,
+                    "n_pred": 272918,
+                    "n_ref": 270259
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 71,
+                    "IoU": 0.0,
+                    "TN": 23592889,
+                    "TP": 0,
+                    "n_pred": 71,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.984334374893026,
+                    "FN": 9076,
+                    "FP": 39891,
+                    "IoU": 0.9691520029432442,
+                    "TN": 22005596,
+                    "TP": 1538397,
+                    "n_pred": 1578288,
+                    "n_ref": 1547473
+                },
+                "6": {
+                    "Dice": 0.6898839137645107,
+                    "FN": 992,
+                    "FP": 130,
+                    "IoU": 0.5265822784810127,
+                    "TN": 23590590,
+                    "TP": 1248,
+                    "n_pred": 1378,
+                    "n_ref": 2240
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_018.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.980899541815211,
+                    "FN": 30840,
+                    "FP": 35697,
+                    "IoU": 0.9625150631002353,
+                    "TN": 21817927,
+                    "TP": 1708496,
+                    "n_pred": 1744193,
+                    "n_ref": 1739336
+                },
+                "2": {
+                    "Dice": 0.6536346976175932,
+                    "FN": 469,
+                    "FP": 665,
+                    "IoU": 0.48548094373865697,
+                    "TN": 23590756,
+                    "TP": 1070,
+                    "n_pred": 1735,
+                    "n_ref": 1539
+                },
+                "3": {
+                    "Dice": 0.9602893549488369,
+                    "FN": 15595,
+                    "FP": 5924,
+                    "IoU": 0.9236121218145094,
+                    "TN": 23311253,
+                    "TP": 260188,
+                    "n_pred": 266112,
+                    "n_ref": 275783
+                },
+                "4": {
+                    "Dice": 0.47688243064729197,
+                    "FN": 670,
+                    "FP": 122,
+                    "IoU": 0.31309627059843886,
+                    "TN": 23591807,
+                    "TP": 361,
+                    "n_pred": 483,
+                    "n_ref": 1031
+                },
+                "5": {
+                    "Dice": 0.9811110554724884,
+                    "FN": 10512,
+                    "FP": 35131,
+                    "IoU": 0.9629224664199868,
+                    "TN": 22361945,
+                    "TP": 1185372,
+                    "n_pred": 1220503,
+                    "n_ref": 1195884
+                },
+                "6": {
+                    "Dice": 0.25756600128783,
+                    "FN": 1085,
+                    "FP": 68,
+                    "IoU": 0.14781966001478197,
+                    "TN": 23591607,
+                    "TP": 200,
+                    "n_pred": 268,
+                    "n_ref": 1285
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_019.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_019.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9854635488167567,
+                    "FN": 60070,
+                    "FP": 8217,
+                    "IoU": 0.971343659133608,
+                    "TN": 21209997,
+                    "TP": 2314676,
+                    "n_pred": 2322893,
+                    "n_ref": 2374746
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 37,
+                    "IoU": 0.0,
+                    "TN": 23592923,
+                    "TP": 0,
+                    "n_pred": 37,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9798636028102081,
+                    "FN": 8190,
+                    "FP": 2776,
+                    "IoU": 0.960522147341743,
+                    "TN": 23315184,
+                    "TP": 266810,
+                    "n_pred": 269586,
+                    "n_ref": 275000
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.9888498063117026,
+                    "FN": 24646,
+                    "FP": 16158,
+                    "IoU": 0.9779455242991634,
+                    "TN": 21742814,
+                    "TP": 1809342,
+                    "n_pred": 1825500,
+                    "n_ref": 1833988
+                },
+                "6": {
+                    "Dice": 0.3236486486486487,
+                    "FN": 1446,
+                    "FP": 556,
+                    "IoU": 0.19306731156791615,
+                    "TN": 23590479,
+                    "TP": 479,
+                    "n_pred": 1035,
+                    "n_ref": 1925
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_022.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.983423921235331,
+                    "FN": 54412,
+                    "FP": 8272,
+                    "IoU": 0.9673884146776066,
+                    "TN": 21670821,
+                    "TP": 1859455,
+                    "n_pred": 1867727,
+                    "n_ref": 1913867
+                },
+                "2": {
+                    "Dice": 0.7380547192040843,
+                    "FN": 4418,
+                    "FP": 3586,
+                    "IoU": 0.5848547717842324,
+                    "TN": 23573680,
+                    "TP": 11276,
+                    "n_pred": 14862,
+                    "n_ref": 15694
+                },
+                "3": {
+                    "Dice": 0.9602904052843954,
+                    "FN": 12475,
+                    "FP": 5662,
+                    "IoU": 0.9236140650861906,
+                    "TN": 23355521,
+                    "TP": 219302,
+                    "n_pred": 224964,
+                    "n_ref": 231777
+                },
+                "4": {
+                    "Dice": 0.4966014418125644,
+                    "FN": 3540,
+                    "FP": 1348,
+                    "IoU": 0.33031922181120704,
+                    "TN": 23585661,
+                    "TP": 2411,
+                    "n_pred": 3759,
+                    "n_ref": 5951
+                },
+                "5": {
+                    "Dice": 0.9831810352744371,
+                    "FN": 39239,
+                    "FP": 11675,
+                    "IoU": 0.9669184676741306,
+                    "TN": 22053914,
+                    "TP": 1488132,
+                    "n_pred": 1499807,
+                    "n_ref": 1527371
+                },
+                "6": {
+                    "Dice": 0.33514526710403,
+                    "FN": 3327,
+                    "FP": 220,
+                    "IoU": 0.20130601215942356,
+                    "TN": 23588519,
+                    "TP": 894,
+                    "n_pred": 1114,
+                    "n_ref": 4221
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_024.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_024.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9673926986156777,
+                    "FN": 92217,
+                    "FP": 6668,
+                    "IoU": 0.9368447204651591,
+                    "TN": 22027216,
+                    "TP": 1466859,
+                    "n_pred": 1473527,
+                    "n_ref": 1559076
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4,
+                    "IoU": 0.0,
+                    "TN": 23592956,
+                    "TP": 0,
+                    "n_pred": 4,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9760151632350597,
+                    "FN": 5854,
+                    "FP": 2270,
+                    "IoU": 0.9531539220039327,
+                    "TN": 23419541,
+                    "TP": 165295,
+                    "n_pred": 167565,
+                    "n_ref": 171149
+                },
+                "4": {
+                    "Dice": 0.7484662576687117,
+                    "FN": 70,
+                    "FP": 94,
+                    "IoU": 0.5980392156862745,
+                    "TN": 23592552,
+                    "TP": 244,
+                    "n_pred": 338,
+                    "n_ref": 314
+                },
+                "5": {
+                    "Dice": 0.9837901545165755,
+                    "FN": 36513,
+                    "FP": 3125,
+                    "IoU": 0.9680974445278804,
+                    "TN": 22350489,
+                    "TP": 1202833,
+                    "n_pred": 1205958,
+                    "n_ref": 1239346
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_027.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_027.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9855424850610928,
+                    "FN": 37838,
+                    "FP": 19089,
+                    "IoU": 0.9714970519198571,
+                    "TN": 21595728,
+                    "TP": 1940305,
+                    "n_pred": 1959394,
+                    "n_ref": 1978143
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 40,
+                    "IoU": 0.0,
+                    "TN": 23592920,
+                    "TP": 0,
+                    "n_pred": 40,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9737577292293922,
+                    "FN": 1533,
+                    "FP": 10312,
+                    "IoU": 0.9488575524161514,
+                    "TN": 23361352,
+                    "TP": 219763,
+                    "n_pred": 230075,
+                    "n_ref": 221296
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.9843941570390053,
+                    "FN": 15714,
+                    "FP": 31458,
+                    "IoU": 0.9692679141831325,
+                    "TN": 22058017,
+                    "TP": 1487771,
+                    "n_pred": 1519229,
+                    "n_ref": 1503485
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_032.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_032.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9792371628171296,
+                    "FN": 51574,
+                    "FP": 10135,
+                    "IoU": 0.959318979048704,
+                    "TN": 22076061,
+                    "TP": 1455190,
+                    "n_pred": 1465325,
+                    "n_ref": 1506764
+                },
+                "2": {
+                    "Dice": 0.7610810810810811,
+                    "FN": 146,
+                    "FP": 296,
+                    "IoU": 0.6143106457242583,
+                    "TN": 23591814,
+                    "TP": 704,
+                    "n_pred": 1000,
+                    "n_ref": 850
+                },
+                "3": {
+                    "Dice": 0.9745594914038836,
+                    "FN": 4998,
+                    "FP": 2133,
+                    "IoU": 0.950381307578836,
+                    "TN": 23449244,
+                    "TP": 136585,
+                    "n_pred": 138718,
+                    "n_ref": 141583
+                },
+                "4": {
+                    "Dice": 0.6358244365361803,
+                    "FN": 447,
+                    "FP": 167,
+                    "IoU": 0.46608695652173915,
+                    "TN": 23591810,
+                    "TP": 536,
+                    "n_pred": 703,
+                    "n_ref": 983
+                },
+                "5": {
+                    "Dice": 0.9863370250940242,
+                    "FN": 9726,
+                    "FP": 15544,
+                    "IoU": 0.9730423715885586,
+                    "TN": 22655563,
+                    "TP": 912127,
+                    "n_pred": 927671,
+                    "n_ref": 921853
+                },
+                "6": {
+                    "Dice": 0.7809878844361603,
+                    "FN": 1182,
+                    "FP": 698,
+                    "IoU": 0.6406727828746177,
+                    "TN": 23587728,
+                    "TP": 3352,
+                    "n_pred": 4050,
+                    "n_ref": 4534
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_042.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9847151089965412,
+                    "FN": 23136,
+                    "FP": 29811,
+                    "IoU": 0.9698904393458434,
+                    "TN": 21834482,
+                    "TP": 1705531,
+                    "n_pred": 1735342,
+                    "n_ref": 1728667
+                },
+                "2": {
+                    "Dice": 0.676338425985364,
+                    "FN": 724,
+                    "FP": 1797,
+                    "IoU": 0.5109602327837052,
+                    "TN": 23587805,
+                    "TP": 2634,
+                    "n_pred": 4431,
+                    "n_ref": 3358
+                },
+                "3": {
+                    "Dice": 0.9557962842253744,
+                    "FN": 2566,
+                    "FP": 10251,
+                    "IoU": 0.9153350728275589,
+                    "TN": 23441575,
+                    "TP": 138568,
+                    "n_pred": 148819,
+                    "n_ref": 141134
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 11,
+                    "IoU": 0.0,
+                    "TN": 23592949,
+                    "TP": 0,
+                    "n_pred": 11,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.9797617165484774,
+                    "FN": 6573,
+                    "FP": 31958,
+                    "IoU": 0.9603263594793652,
+                    "TN": 22621761,
+                    "TP": 932668,
+                    "n_pred": 964626,
+                    "n_ref": 939241
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_044.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_044.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9815335746275443,
+                    "FN": 51311,
+                    "FP": 8184,
+                    "IoU": 0.9637368009147628,
+                    "TN": 21952316,
+                    "TP": 1581149,
+                    "n_pred": 1589333,
+                    "n_ref": 1632460
+                },
+                "2": {
+                    "Dice": 0.18964357767316745,
+                    "FN": 277,
+                    "FP": 928,
+                    "IoU": 0.10475482912332838,
+                    "TN": 23591614,
+                    "TP": 141,
+                    "n_pred": 1069,
+                    "n_ref": 418
+                },
+                "3": {
+                    "Dice": 0.9727172377890358,
+                    "FN": 8491,
+                    "FP": 2829,
+                    "IoU": 0.9468836366878287,
+                    "TN": 23379843,
+                    "TP": 201797,
+                    "n_pred": 204626,
+                    "n_ref": 210288
+                },
+                "4": {
+                    "Dice": 0.39433551198257083,
+                    "FN": 954,
+                    "FP": 158,
+                    "IoU": 0.24559023066485752,
+                    "TN": 23591486,
+                    "TP": 362,
+                    "n_pred": 520,
+                    "n_ref": 1316
+                },
+                "5": {
+                    "Dice": 0.9783968269505348,
+                    "FN": 45563,
+                    "FP": 7847,
+                    "IoU": 0.9577073101975981,
+                    "TN": 22330094,
+                    "TP": 1209456,
+                    "n_pred": 1217303,
+                    "n_ref": 1255019
+                },
+                "6": {
+                    "Dice": 0.32647199617041645,
+                    "FN": 3128,
+                    "FP": 1093,
+                    "IoU": 0.1950800915331808,
+                    "TN": 23587716,
+                    "TP": 1023,
+                    "n_pred": 2116,
+                    "n_ref": 4151
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_046.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_046.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6550970736669064,
+                    "FN": 894879,
+                    "FP": 271234,
+                    "IoU": 0.48709617686165824,
+                    "TN": 21319409,
+                    "TP": 1107438,
+                    "n_pred": 1378672,
+                    "n_ref": 2002317
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 13333,
+                    "IoU": 0.0,
+                    "TN": 23579627,
+                    "TP": 0,
+                    "n_pred": 13333,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.767628303924906,
+                    "FN": 70389,
+                    "FP": 16304,
+                    "IoU": 0.6228869961633158,
+                    "TN": 23363074,
+                    "TP": 143193,
+                    "n_pred": 159497,
+                    "n_ref": 213582
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 30382,
+                    "IoU": 0.0,
+                    "TN": 23562578,
+                    "TP": 0,
+                    "n_pred": 30382,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.981067723558927,
+                    "FN": 22066,
+                    "FP": 31234,
+                    "IoU": 0.962838989638841,
+                    "TN": 22158661,
+                    "TP": 1380999,
+                    "n_pred": 1412233,
+                    "n_ref": 1403065
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 9,
+                    "IoU": 0.0,
+                    "TN": 23592951,
+                    "TP": 0,
+                    "n_pred": 9,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_058.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_058.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9804302140758328,
+                    "FN": 59399,
+                    "FP": 6643,
+                    "IoU": 0.9616116793684139,
+                    "TN": 21872593,
+                    "TP": 1654325,
+                    "n_pred": 1660968,
+                    "n_ref": 1713724
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4,
+                    "IoU": 0.0,
+                    "TN": 23592956,
+                    "TP": 0,
+                    "n_pred": 4,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9574389224484646,
+                    "FN": 5013,
+                    "FP": 5781,
+                    "IoU": 0.9183528361686195,
+                    "TN": 23460757,
+                    "TP": 121409,
+                    "n_pred": 127190,
+                    "n_ref": 126422
+                },
+                "4": {
+                    "Dice": 0.20556530458761593,
+                    "FN": 3149,
+                    "FP": 20,
+                    "IoU": 0.11455713886560492,
+                    "TN": 23589381,
+                    "TP": 410,
+                    "n_pred": 430,
+                    "n_ref": 3559
+                },
+                "5": {
+                    "Dice": 0.9901118021620021,
+                    "FN": 10111,
+                    "FP": 11257,
+                    "IoU": 0.9804172425043348,
+                    "TN": 22501796,
+                    "TP": 1069796,
+                    "n_pred": 1081053,
+                    "n_ref": 1079907
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_067.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_067.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9693437285817075,
+                    "FN": 98809,
+                    "FP": 8942,
+                    "IoU": 0.940511163093965,
+                    "TN": 21781679,
+                    "TP": 1703530,
+                    "n_pred": 1712472,
+                    "n_ref": 1802339
+                },
+                "2": {
+                    "Dice": 0.47249190938511326,
+                    "FN": 340,
+                    "FP": 149,
+                    "IoU": 0.3093220338983051,
+                    "TN": 23592252,
+                    "TP": 219,
+                    "n_pred": 368,
+                    "n_ref": 559
+                },
+                "3": {
+                    "Dice": 0.9640274983309142,
+                    "FN": 14581,
+                    "FP": 1206,
+                    "IoU": 0.9305531727702628,
+                    "TN": 23365635,
+                    "TP": 211538,
+                    "n_pred": 212744,
+                    "n_ref": 226119
+                },
+                "4": {
+                    "Dice": 0.48214285714285715,
+                    "FN": 469,
+                    "FP": 111,
+                    "IoU": 0.3176470588235294,
+                    "TN": 23592110,
+                    "TP": 270,
+                    "n_pred": 381,
+                    "n_ref": 739
+                },
+                "5": {
+                    "Dice": 0.979506953386614,
+                    "FN": 36388,
+                    "FP": 9749,
+                    "IoU": 0.9598369696268008,
+                    "TN": 22444217,
+                    "TP": 1102606,
+                    "n_pred": 1112355,
+                    "n_ref": 1138994
+                },
+                "6": {
+                    "Dice": 0.5307621671258035,
+                    "FN": 1196,
+                    "FP": 337,
+                    "IoU": 0.36125,
+                    "TN": 23590560,
+                    "TP": 867,
+                    "n_pred": 1204,
+                    "n_ref": 2063
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_076.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_076.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9828837633254219,
+                    "FN": 52493,
+                    "FP": 11503,
+                    "IoU": 0.9663435975999382,
+                    "TN": 21691509,
+                    "TP": 1837455,
+                    "n_pred": 1848958,
+                    "n_ref": 1889948
+                },
+                "2": {
+                    "Dice": 0.003976143141153081,
+                    "FN": 469,
+                    "FP": 32,
+                    "IoU": 0.00199203187250996,
+                    "TN": 23592458,
+                    "TP": 1,
+                    "n_pred": 33,
+                    "n_ref": 470
+                },
+                "3": {
+                    "Dice": 0.9800893829956105,
+                    "FN": 3046,
+                    "FP": 3953,
+                    "IoU": 0.9609561530737476,
+                    "TN": 23413700,
+                    "TP": 172261,
+                    "n_pred": 176214,
+                    "n_ref": 175307
+                },
+                "4": {
+                    "Dice": 0.47288503253796094,
+                    "FN": 948,
+                    "FP": 267,
+                    "IoU": 0.3096590909090909,
+                    "TN": 23591200,
+                    "TP": 545,
+                    "n_pred": 812,
+                    "n_ref": 1493
+                },
+                "5": {
+                    "Dice": 0.9904010830511581,
+                    "FN": 13482,
+                    "FP": 11022,
+                    "IoU": 0.9809846924601481,
+                    "TN": 22304314,
+                    "TP": 1264142,
+                    "n_pred": 1275164,
+                    "n_ref": 1277624
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_078.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_078.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9783846339585169,
+                    "FN": 62505,
+                    "FP": 7499,
+                    "IoU": 0.9576839449366595,
+                    "TN": 21938647,
+                    "TP": 1584309,
+                    "n_pred": 1591808,
+                    "n_ref": 1646814
+                },
+                "2": {
+                    "Dice": 0.5365434221840069,
+                    "FN": 201,
+                    "FP": 338,
+                    "IoU": 0.36662749706227965,
+                    "TN": 23592109,
+                    "TP": 312,
+                    "n_pred": 650,
+                    "n_ref": 513
+                },
+                "3": {
+                    "Dice": 0.9724566062442064,
+                    "FN": 11183,
+                    "FP": 1564,
+                    "IoU": 0.9463898188180273,
+                    "TN": 23355188,
+                    "TP": 225025,
+                    "n_pred": 226589,
+                    "n_ref": 236208
+                },
+                "4": {
+                    "Dice": 0.7037507946598855,
+                    "FN": 741,
+                    "FP": 191,
+                    "IoU": 0.5429131927415399,
+                    "TN": 23590921,
+                    "TP": 1107,
+                    "n_pred": 1298,
+                    "n_ref": 1848
+                },
+                "5": {
+                    "Dice": 0.977070379156976,
+                    "FN": 30523,
+                    "FP": 18644,
+                    "IoU": 0.9551687225087352,
+                    "TN": 22496248,
+                    "TP": 1047545,
+                    "n_pred": 1066189,
+                    "n_ref": 1078068
+                },
+                "6": {
+                    "Dice": 0.34860086314910205,
+                    "FN": 22879,
+                    "FP": 516,
+                    "IoU": 0.2110942505479683,
+                    "TN": 23563305,
+                    "TP": 6260,
+                    "n_pred": 6776,
+                    "n_ref": 29139
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_079.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_079.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9832152362504226,
+                    "FN": 24801,
+                    "FP": 61226,
+                    "IoU": 0.9669846277245924,
+                    "TN": 20987295,
+                    "TP": 2519638,
+                    "n_pred": 2580864,
+                    "n_ref": 2544439
+                },
+                "2": {
+                    "Dice": 0.6515326112007375,
+                    "FN": 1674,
+                    "FP": 1350,
+                    "IoU": 0.4831652708938643,
+                    "TN": 23587109,
+                    "TP": 2827,
+                    "n_pred": 4177,
+                    "n_ref": 4501
+                },
+                "3": {
+                    "Dice": 0.8558538825264707,
+                    "FN": 63252,
+                    "FP": 8479,
+                    "IoU": 0.7480284812016341,
+                    "TN": 23308281,
+                    "TP": 212948,
+                    "n_pred": 221427,
+                    "n_ref": 276200
+                },
+                "4": {
+                    "Dice": 0.42063492063492064,
+                    "FN": 584,
+                    "FP": 0,
+                    "IoU": 0.2663316582914573,
+                    "TN": 23592164,
+                    "TP": 212,
+                    "n_pred": 212,
+                    "n_ref": 796
+                },
+                "5": {
+                    "Dice": 0.9813874052442844,
+                    "FN": 5908,
+                    "FP": 53138,
+                    "IoU": 0.9634550076220503,
+                    "TN": 21977253,
+                    "TP": 1556661,
+                    "n_pred": 1609799,
+                    "n_ref": 1562569
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_083.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_083.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9819886398536177,
+                    "FN": 47050,
+                    "FP": 8664,
+                    "IoU": 0.9646146185563343,
+                    "TN": 22018468,
+                    "TP": 1518778,
+                    "n_pred": 1527442,
+                    "n_ref": 1565828
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9622366738925018,
+                    "FN": 10208,
+                    "FP": 3380,
+                    "IoU": 0.9272216985174394,
+                    "TN": 23406256,
+                    "TP": 173116,
+                    "n_pred": 176496,
+                    "n_ref": 183324
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.987377331062917,
+                    "FN": 13705,
+                    "FP": 13552,
+                    "IoU": 0.9750693534239508,
+                    "TN": 22499647,
+                    "TP": 1066056,
+                    "n_pred": 1079608,
+                    "n_ref": 1079761
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 169,
+                    "IoU": 0.0,
+                    "TN": 23592791,
+                    "TP": 0,
+                    "n_pred": 169,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_084.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_084.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9795608816168914,
+                    "FN": 64505,
+                    "FP": 2736,
+                    "IoU": 0.9599405432134069,
+                    "TN": 21914430,
+                    "TP": 1611289,
+                    "n_pred": 1614025,
+                    "n_ref": 1675794
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4,
+                    "IoU": 0.0,
+                    "TN": 23592956,
+                    "TP": 0,
+                    "n_pred": 4,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9599584187351058,
+                    "FN": 9914,
+                    "FP": 2335,
+                    "IoU": 0.9230000377173462,
+                    "TN": 23433882,
+                    "TP": 146829,
+                    "n_pred": 149164,
+                    "n_ref": 156743
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 57,
+                    "IoU": 0.0,
+                    "TN": 23592903,
+                    "TP": 0,
+                    "n_pred": 57,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.9887753716704925,
+                    "FN": 22515,
+                    "FP": 6257,
+                    "IoU": 0.9777999308659046,
+                    "TN": 22296928,
+                    "TP": 1267260,
+                    "n_pred": 1273517,
+                    "n_ref": 1289775
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 99,
+                    "IoU": 0.0,
+                    "TN": 23592861,
+                    "TP": 0,
+                    "n_pred": 99,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_087.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_087.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9815792741959498,
+                    "FN": 35131,
+                    "FP": 40958,
+                    "IoU": 0.963824919628365,
+                    "TN": 21489606,
+                    "TP": 2027265,
+                    "n_pred": 2068223,
+                    "n_ref": 2062396
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9593396976929196,
+                    "FN": 13524,
+                    "FP": 6920,
+                    "IoU": 0.9218567245873818,
+                    "TN": 23331338,
+                    "TP": 241178,
+                    "n_pred": 248098,
+                    "n_ref": 254702
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.9847981734593125,
+                    "FN": 22542,
+                    "FP": 19105,
+                    "IoU": 0.9700516170415339,
+                    "TN": 22202334,
+                    "TP": 1348979,
+                    "n_pred": 1368084,
+                    "n_ref": 1371521
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 23592960,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset902_KneeDESS_BML/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual/dess_094.nii.gz",
+            "reference_file": "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset902_KneeDESS_BML/labelsTr/dess_094.nii.gz"
+        }
+    ]
+}

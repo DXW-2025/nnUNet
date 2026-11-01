@@ -1,0 +1,273 @@
+{
+    "checkpoint": "checkpoint_best.safetensors",
+    "per_case": {
+        "0": {
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_004.nii.gz": {
+                "1": {
+                    "Dice": 0.6211662130315947,
+                    "FN": 20907,
+                    "FP": 45484,
+                    "IoU": 0.4505011546006075,
+                    "TN": 23472139,
+                    "TP": 54430,
+                    "n_pred": 99914,
+                    "n_ref": 75337
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_009.nii.gz": {
+                "1": {
+                    "Dice": 0.653403032430886,
+                    "FN": 5363,
+                    "FP": 21291,
+                    "IoU": 0.48522538529877557,
+                    "TN": 23541182,
+                    "TP": 25124,
+                    "n_pred": 46415,
+                    "n_ref": 30487
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_013.nii.gz": {
+                "1": {
+                    "Dice": 0.8473000782128698,
+                    "FN": 52420,
+                    "FP": 15327,
+                    "IoU": 0.7350569408378438,
+                    "TN": 23337256,
+                    "TP": 187957,
+                    "n_pred": 203284,
+                    "n_ref": 240377
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_020.nii.gz": {
+                "1": {
+                    "Dice": 0.001958352372870292,
+                    "FN": 172,
+                    "FP": 15117,
+                    "IoU": 0.0009801359121798222,
+                    "TN": 23577656,
+                    "TP": 15,
+                    "n_pred": 15132,
+                    "n_ref": 187
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_025.nii.gz": {
+                "1": {
+                    "Dice": 0.7318768805247715,
+                    "FN": 32023,
+                    "FP": 11018,
+                    "IoU": 0.5771339306767271,
+                    "TN": 23491176,
+                    "TP": 58743,
+                    "n_pred": 69761,
+                    "n_ref": 90766
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_028.nii.gz": {
+                "1": {
+                    "Dice": 0.7023729773594977,
+                    "FN": 43672,
+                    "FP": 10975,
+                    "IoU": 0.5412749311664764,
+                    "TN": 23473832,
+                    "TP": 64481,
+                    "n_pred": 75456,
+                    "n_ref": 108153
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_033.nii.gz": {
+                "1": {
+                    "Dice": 0.8845258978856985,
+                    "FN": 13572,
+                    "FP": 36456,
+                    "IoU": 0.7929596000562835,
+                    "TN": 23351326,
+                    "TP": 191606,
+                    "n_pred": 228062,
+                    "n_ref": 205178
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_039.nii.gz": {
+                "1": {
+                    "Dice": 0.6836459980342721,
+                    "FN": 3628,
+                    "FP": 3775,
+                    "IoU": 0.5193481366056356,
+                    "TN": 23577558,
+                    "TP": 7999,
+                    "n_pred": 11774,
+                    "n_ref": 11627
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_040.nii.gz": {
+                "1": {
+                    "Dice": 0.7062601266755045,
+                    "FN": 20382,
+                    "FP": 19502,
+                    "IoU": 0.5459058202022042,
+                    "TN": 23505128,
+                    "TP": 47948,
+                    "n_pred": 67450,
+                    "n_ref": 68330
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_045.nii.gz": {
+                "1": {
+                    "Dice": 0.5633275815093997,
+                    "FN": 41041,
+                    "FP": 7041,
+                    "IoU": 0.392105795489026,
+                    "TN": 23513864,
+                    "TP": 31014,
+                    "n_pred": 38055,
+                    "n_ref": 72055
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_047.nii.gz": {
+                "1": {
+                    "Dice": 0.7925983571119758,
+                    "FN": 2399,
+                    "FP": 9594,
+                    "IoU": 0.6564496261709015,
+                    "TN": 23558051,
+                    "TP": 22916,
+                    "n_pred": 32510,
+                    "n_ref": 25315
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_049.nii.gz": {
+                "1": {
+                    "Dice": 0.7095842121991389,
+                    "FN": 5273,
+                    "FP": 14829,
+                    "IoU": 0.5498880429914913,
+                    "TN": 23548300,
+                    "TP": 24558,
+                    "n_pred": 39387,
+                    "n_ref": 29831
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_052.nii.gz": {
+                "1": {
+                    "Dice": 0.8325346775987859,
+                    "FN": 41931,
+                    "FP": 8498,
+                    "IoU": 0.7131129821367619,
+                    "TN": 23417180,
+                    "TP": 125351,
+                    "n_pred": 133849,
+                    "n_ref": 167282
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_054.nii.gz": {
+                "1": {
+                    "Dice": 0.29058332837443807,
+                    "FN": 643038,
+                    "FP": 12651,
+                    "IoU": 0.1699897591955209,
+                    "TN": 22802983,
+                    "TP": 134288,
+                    "n_pred": 146939,
+                    "n_ref": 777326
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_057.nii.gz": {
+                "1": {
+                    "Dice": 0.8221575811256945,
+                    "FN": 13543,
+                    "FP": 57133,
+                    "IoU": 0.6980200135018501,
+                    "TN": 23358918,
+                    "TP": 163366,
+                    "n_pred": 220499,
+                    "n_ref": 176909
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_060.nii.gz": {
+                "1": {
+                    "Dice": 0.7927688863089808,
+                    "FN": 780,
+                    "FP": 9216,
+                    "IoU": 0.6566836103860421,
+                    "TN": 23563844,
+                    "TP": 19120,
+                    "n_pred": 28336,
+                    "n_ref": 19900
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_063.nii.gz": {
+                "1": {
+                    "Dice": 0.7609802110558689,
+                    "FN": 3773,
+                    "FP": 8390,
+                    "IoU": 0.6141792228390166,
+                    "TN": 23561435,
+                    "TP": 19362,
+                    "n_pred": 27752,
+                    "n_ref": 23135
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_068.nii.gz": {
+                "1": {
+                    "Dice": 0.7215973493765804,
+                    "FN": 4316,
+                    "FP": 2070,
+                    "IoU": 0.5644523257400081,
+                    "TN": 23578298,
+                    "TP": 8276,
+                    "n_pred": 10346,
+                    "n_ref": 12592
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_071.nii.gz": {
+                "1": {
+                    "Dice": 0.5518422514349195,
+                    "FN": 6702,
+                    "FP": 2980,
+                    "IoU": 0.38106501310490315,
+                    "TN": 23577317,
+                    "TP": 5961,
+                    "n_pred": 8941,
+                    "n_ref": 12663
+                }
+            },
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset905_KneeDESS_effusion_alone/labelsTr/dess_085.nii.gz": {
+                "1": {
+                    "Dice": 0.7104116884892602,
+                    "FN": 5871,
+                    "FP": 38606,
+                    "IoU": 0.5508825430163987,
+                    "TN": 23493928,
+                    "TP": 54555,
+                    "n_pred": 93161,
+                    "n_ref": 60426
+                }
+            }
+        }
+    },
+    "per_fold_foreground_mean": {
+        "0": {
+            "Dice": 0.6690447840556504,
+            "FN": 48040.3,
+            "FP": 17497.65,
+            "IoU": 0.5297607484964327,
+            "TN": 23465068.55,
+            "TP": 62353.5,
+            "n_pred": 79851.15,
+            "n_ref": 110393.8
+        }
+    },
+    "per_fold_mean": {
+        "0": {
+            "1": {
+                "Dice": 0.6690447840556504,
+                "FN": 48040.3,
+                "FP": 17497.65,
+                "IoU": 0.5297607484964327,
+                "TN": 23465068.55,
+                "TP": 62353.5,
+                "n_pred": 79851.15,
+                "n_ref": 110393.8
+            }
+        }
+    }
+}

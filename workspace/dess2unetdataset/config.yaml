@@ -1,0 +1,80 @@
+# nnU-Net v2 conversion config: DESS images + BML labels -> raw dataset.
+# Paths below are absolute for this machine; adjust when moving to another host.
+
+# Input: one folder of images (single channel) and one folder of labels.
+image_folder: /root/autodl-tmp/nnUNet/raw_data/dess_nii
+label_folder: /root/autodl-tmp/nnUNet/raw_data/dess_effusion
+
+# Output: the nnUNet_raw root (env var nnUNet_raw) plus dataset id + name.
+output_raw_folder: /root/autodl-tmp/nnUNet/nnUNet_raw
+dataset_id: 905
+dataset_name: KneeDESS_effusion_alone
+
+# dataset.json channel metadata. Key = channel index, value = name.
+# A non-CT name means nnU-Net will use per-channel z-scoring.
+channel_names:
+  0: DESS
+
+# How images/labels are paired. Image and label are matched by the NIfTI
+# origin (affine[:3,3]); a pair whose origins differ by more than this many mm
+# is excluded. The source UIDs do not line up, so origin is the pairing key.
+origin_tolerance_mm: 0.5
+
+# Output file naming and format.
+case_id_prefix: dess
+file_ending: .nii.gz
+
+# Optional: force a specific nnU-Net ReaderWriter (e.g. SimpleITKIO). Leave
+# null to let nnU-Net auto-detect.
+overwrite_image_reader_writer: null
+
+# Class names for the labels. The script auto-reads a {name: value} label-map
+# JSON from the label folder; point it there explicitly or leave it to
+# auto-discover the single *.json in the folder.
+label_map_json: mask_label_map.json    # filename inside label_folder (or an absolute path)
+
+# Optional manual overrides applied on top of the JSON map: {original_value: name}.
+# Values with no name anywhere fall back to "label_<value>".
+label_names: {}
+
+# Optional: merge several labels into a single class under a new name. Each
+# entry lists label names taken from the label-map JSON; the script verifies
+# that every listed name exists in the JSON (and exits if not). The merged
+# class is recorded in the conversion report with its name and original values.
+# Use `name: background` to merge a set of labels into background (mapped to 0).
+# label_merges:
+#   - name: femur_bml
+#     labels:
+#       - seg__femur lateral central bml
+#       - seg__femur lateral posterior bml
+#       - seg__femur lateral trochlea bml
+#       - seg__femur medial central bml
+#       - seg__femur medial posterior bml
+#       - seg__femur medial trochlea bml
+label_merges: 
+    - name: background
+      labels:
+        - seg__femur 
+        - seg__tibia
+        - seg__patella
+        - seg__femur cartilage
+        - seg__tibia cartilage
+        - seg__patella cartilage
+        - seg__lateral meniscus
+        - seg__medial meniscus
+        - seg__patellar tendon
+        - seg__hoffa-synovitis
+
+
+# Optional: exclude a case when a specified original label is empty (no voxels).
+# Each entry is an original label name (from the label-map JSON) or an integer
+# original value. A case is dropped if ANY listed structure is absent. The check
+# runs after origin pairing and before label merging.
+# exclude_if_empty:
+#   - femur
+#   - 44
+exclude_if_empty: 
+
+
+# Optional metadata written into dataset.json (not used by nnU-Net itself).
+license: See OAI / 3DReasonKnee terms of use

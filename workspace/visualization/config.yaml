@@ -1,0 +1,45 @@
+# 相对路径以本配置文件所在目录为基准；命令行参数（--image/--mask/--image-dir/--mask-dir/--output）
+# 可覆盖下面的路径。
+
+# =========
+#image: "/root/autodl-tmp/nnUNet/workspace/inference/905_0/input"   # 灰度底图
+#mask: "/root/autodl-tmp/nnUNet/workspace/inference/905_0/output"     # 分割标签（0 为背景，其余值为不同类别）=== 模式一：单张（与批量模式二选一） ============
+
+
+# ============ 模式二：批量（指定文件夹） ============
+# 递归查找影像文件夹中的 *.nii.gz / *.nii，逐张叠加标签并输出 PNG。
+# 配对规则：优先按影像相对 mask_dir 的相对路径匹配；否则按文件名唯一匹配。
+image_dir: "/root/autodl-tmp/nnUNet/workspace/inference/905_0_tse/input"
+mask_dir: "/root/autodl-tmp/nnUNet/workspace/inference/905_0_tse/output"
+
+# ============ 输出 ============
+# 单张模式：输出文件路径；批量模式：输出目录（每个影像一张 PNG，缺省为 config 同级的 visualization/）。
+output: "/root/autodl-tmp/nnUNet/workspace/visualization/905_0_tse"
+
+# ============ 渲染参数 ============
+# 标签样式：contour = 仅边框（默认，不填充）；fill = 半透明填充。
+mask_style: "contour"
+
+# fill 模式下的掩膜透明度，取值范围 0（全透明）~ 1（不透明）。
+mask_alpha: 0.6
+
+# contour 模式下的边框线宽。
+contour_width: 0.8
+
+# 每行切片的列数。
+n_col: 4
+
+# 灰度显示窗口（两种方式，二选一）：
+# 1) 百分位 window：[lo, hi]，取整卷灰度的 lo% / hi% 分位数作为 vmin/vmax，所有切片共用。
+# 2) 固定窗位 vmin/vmax：绝对灰度值，更可控、可复现；提供了 vmin/vmax 就优先于 window。
+#    软骨太亮（饱和发白、与积液分不开）时，把 vmax 调大——亮部整体变暗，
+#    比积液稍暗的软骨落到灰区，更亮的积液仍接近白，两者即可分开。
+window: [1, 99]
+#vmin: 40
+#vmax: 350
+
+# 掩膜颜色：
+#   "auto"           —— 每个类别自动分配不同颜色；
+#   单一颜色         —— 所有类别同色，如 "red" 或 "#ff0000"；
+#   颜色列表         —— 每类一个颜色，长度需与类别数一致，按类别值升序对应。
+mask_color: "auto"

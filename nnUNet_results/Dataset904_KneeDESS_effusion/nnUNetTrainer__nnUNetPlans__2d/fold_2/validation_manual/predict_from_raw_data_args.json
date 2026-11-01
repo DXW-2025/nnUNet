@@ -1,0 +1,69 @@
+{
+    "folder_with_segs_from_prev_stage": null,
+    "list_of_lists_or_source_folder": [
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_012_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_016_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_018_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_019_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_022_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_024_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_027_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_032_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_042_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_046_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_058_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_067_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_076_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_078_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_079_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_082_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_083_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_086_0000.nii.gz"
+        ],
+        [
+            "/root/autodl-tmp/nnUNet/nnUNet_raw/Dataset904_KneeDESS_effusion/imagesTr/dess_093_0000.nii.gz"
+        ]
+    ],
+    "num_parts": 1,
+    "num_processes_preprocessing": 8,
+    "num_processes_segmentation_export": 8,
+    "output_folder_or_list_of_truncated_output_files": "/root/autodl-tmp/nnUNet/nnUNet_results/Dataset904_KneeDESS_effusion/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation_manual",
+    "overwrite": true,
+    "part_id": 0,
+    "save_probabilities": false
+}

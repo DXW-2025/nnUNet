@@ -1,0 +1,15 @@
+{
+    "channel_names": {
+        "0": "DESS"
+    },
+    "labels": {
+        "background": 0,
+        "seg__effusion-synovitis": 1
+    },
+    "numTraining": 99,
+    "file_ending": ".nii.gz",
+    "licence": "See OAI / 3DReasonKnee terms of use",
+    "converted_by": "workspace/convert_dess_to_nnunet.py",
+    "name": "KneeDESS_effusion_alone",
+    "reference": "3DReasonKnee / OAI \u2014 DESS images with BML labels"
+}

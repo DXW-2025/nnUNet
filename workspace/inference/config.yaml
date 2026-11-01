@@ -1,0 +1,11 @@
+# prepare_inference 配置：为哪个 (dataset, fold) 准备推理输入。
+# 用法：python prepare_inference.py [--config path/to/config.yaml]
+# 未指定 --config 时，读取本文件（config.yaml，与脚本同目录）。
+
+dataset_id: 905   # 数据集 ID，对应 nnUNet_preprocessed/Dataset{id}_*
+fold: 0           # fold 编号（0-based），对应 splits_final.json 的索引
+
+# 要复制哪类影像到 input/：dess 或 tse。
+#   dess -> 复制 raw_data/dess_nii/{dess_uid}.nii.gz（与训练数据同序列）
+#   tse  -> 经 metadata.csv 的 dess_uid -> tse_uid 对应关系，复制 raw_data/tse_nii/{tse_uid}.nii.gz
+modality: tse

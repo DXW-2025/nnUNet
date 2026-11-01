@@ -1,0 +1,24 @@
+{
+    "channel_names": {
+        "0": "DESS"
+    },
+    "labels": {
+        "background": 0,
+        "seg__femur": 1,
+        "seg__femur cartilage": 2,
+        "seg__hoffa-synovitis": 3,
+        "seg__lateral meniscus": 4,
+        "seg__medial meniscus": 5,
+        "seg__patella": 6,
+        "seg__patella cartilage": 7,
+        "seg__patellar tendon": 8,
+        "seg__tibia": 9,
+        "seg__tibia cartilage": 10
+    },
+    "numTraining": 97,
+    "file_ending": ".nii.gz",
+    "licence": "See OAI / 3DReasonKnee terms of use",
+    "converted_by": "workspace/convert_dess_to_nnunet.py",
+    "name": "KneeDESS_effusion_bg",
+    "reference": "3DReasonKnee / OAI \u2014 DESS images with BML labels"
+}
